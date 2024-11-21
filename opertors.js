@@ -35,7 +35,18 @@ oprands + operators = Expression
 // console.log(x **= y)
 
 
-// Comparison operators : == , != , > , < , >= , <= , === , !== ,
+// Comparison operators : == , != , > , < , >= , <= , === , !== 
+
+let x = 12 , y = 15
+
+console.log(x == y)
+console.log(x != y)
+console.log(x > y)
+console.log(x < y)
+console.log(x >= y)
+console.log(x <= y)
+console.log(x === y)
+console.log(x !== y)
 
 // logiacl operators :- && , || , !
 
