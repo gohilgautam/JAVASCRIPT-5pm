@@ -37,16 +37,16 @@ oprands + operators = Expression
 
 // Comparison operators : == , != , > , < , >= , <= , === , !== 
 
-let x = 12 , y = 15
+// let x = 12 , y = 15
 
-console.log(x == y)
-console.log(x != y)
-console.log(x > y)
-console.log(x < y)
-console.log(x >= y)
-console.log(x <= y)
-console.log(x === y)
-console.log(x !== y)
+// console.log(x == y)
+// console.log(x != y)
+// console.log(x > y)
+// console.log(x < y)
+// console.log(x >= y)
+// console.log(x <= y)
+// console.log(x === y)
+// console.log(x !== y)
 
 // logiacl operators :- && , || , !
 
