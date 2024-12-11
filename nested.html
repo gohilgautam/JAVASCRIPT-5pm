@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        // function as a variable
+
+        // let product = function(x,y){
+        //     console.log(x * y);
+        // }
+        // product(20,5)
+
+        // -------------------------------------------
+
+        // Arrow function (anonymous function)
+
+        // let hello = () => {
+        //     console.log("Hello World");
+        // } 
+
+        // let prod = () => "hello world"
+
+        // --------------------------------------------
+
+        // IIFE (Immeditely Invoking Function Expression)
+
+        // (function (){
+        //     console.log("IIFE Called....")
+        // })()
+
+        // --------------------------------------------
+
+        // Closure Function (nested function)
+
+        // function outerfun(){
+        //     function innerfun(){
+        //         return "Inner Function";
+        //     }
+        //     console.log(innerfun());
+        //     console.log("Outer Function Called");
+        // }   
+        // outerfun();
+
+        // --------------------------------------------
+
+        // function outerfun(){
+        //     function innerfun(){
+        //         return "Inner Function";
+        //     }
+        //     console.log("Outer Function Called..........");
+        //     return innerfun;
+        // }   
+        // outerfun();
+
+        // --------------------------------------------
+
+        function outerfun(){
+            function innerfun(){
+                return "Inner Function";
+            }
+            console.log("Outer Function Called !!!!!!!");
+            return innerfun;
+        }   
+        let a = outerfun();
+        console.log(a());
+
+
+    </script>
+    </script>
+
+</body>
+</html>
