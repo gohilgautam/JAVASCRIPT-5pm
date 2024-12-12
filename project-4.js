@@ -149,7 +149,6 @@ answer :- celcius = 69
 
 // 9. write a javascript program to find if a given number is even or odd using an argument with no return type.
 
-// let num
 // function odd(a) {
 //     if (a % 2 == 0) {
 //         console.log("Given number is even");
