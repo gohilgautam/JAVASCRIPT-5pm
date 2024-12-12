@@ -149,7 +149,7 @@ answer :- celcius = 69
 
 // 9. write a javascript program to find if a given number is even or odd using an argument with no return type.
 
-// let num = +prompt("Enter number");
+// let num
 // function odd(a) {
 //     if (a % 2 == 0) {
 //         console.log("Given number is even");
@@ -158,12 +158,9 @@ answer :- celcius = 69
 //         console.log("Given number is odd");
 //     }
 // }
-// odd(num);
+// return odd();
 
-/*
-answer :- 30
-    Given number is even
-*/
+
 
 // --------------------------------------------------------------------------------------------------------------------
 
@@ -177,10 +174,6 @@ answer :- 30
 
 //     console.log("After swapping: a =", a, " b =", b);
 // }
-// fine(103, 35);
+// fine();
 
-/*
-Before swapping: a = 103  b = 35
-After swapping: a = 35  b = 103
-*/
 
