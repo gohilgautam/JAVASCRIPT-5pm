@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        // Object :- Collection of multiple datatype (physical entity)
+
+        // let a = {
+        //     key : value (number, string, boolean)
+        // }
+
+        // ---> object define
+
+        // let person = {}
+        // let person = new Object()
+
+        let person = {
+            name : "Gautam",
+            age :"22",
+            gmail : "gohilgautam2405@gmail.com"
+        }; 
+
+        console.log(person)
+
+        //Do operator
+
+        console.log(person.name)
+
+        // ['key']
+
+        console.log(person["name"])
+
+        // hasownproperty method => for check property
+
+        console.log(Object.hasOwnProperty("age"));
+
+        //keys => for convert keys in array
+
+        console.log(Object.keys(person));
+
+        //value => for convert value in array
+
+        console.log(Object.values(person));
+
+        //for add a keys/replace a new data
+
+        person.gender = "male"
+        console.log(person)
+
+        //remove keys for using delete keywords
+
+        delete person.age
+        console.log(person)
+
+    </script>
+
+</body>
+</html>
