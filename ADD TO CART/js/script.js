@@ -45,7 +45,7 @@ function addData() {
 
 
     var add = JSON.stringify(product);
-    localStorage.setItem('cart', add);
+    localStorage.setItem('add', add);
 
     document.getElementById("name").value = "";
     document.getElementById("price").value = "";
@@ -56,7 +56,7 @@ function addData() {
 
 }
   function deletData(no){
-    var cartdata = localStorage.getItem('cart');
+    var cartdata = localStorage.getItem('add');
     var cdata = JSON.parse(cartdata);
 
     for(var i=0;i<cartdata.length;i++){
@@ -64,7 +64,7 @@ function addData() {
             cartdata.slice(i, 1);
         }
     }
-    localStorage.setItem('cart', JSON.stringify(cartdata));
+    localStorage.setItem('add', JSON.stringify(cartdata));
     viewData();
 
   }      
