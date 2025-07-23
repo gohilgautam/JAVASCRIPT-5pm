@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Simple Quiz Application</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="quiz-container">
+    <div class="quiz-header">
+      <h2>JavaScript Simple Quiz Application</h2>
+      <div id="timer">Time Left: 20 seconds</div>
+    </div>
+
+    <div id="quizBox">
+      <div id="questionArea">
+        <p id="questionText"></p>
+        <ul id="optionList"></ul>
+      </div>
+
+      <div class="navigation">
+        <button id="prevBtn">Previous</button>
+        <button id="nextBtn">Next</button>
+      </div>
+
+      <p id="progressText"></p>
+    </div>
+
+    <div id="resultBox" style="display: none;">
+      <h3>Your Result</h3>
+      <p id="scoreText"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
